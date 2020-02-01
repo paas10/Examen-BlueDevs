@@ -102,9 +102,58 @@ namespace BlueDevs
                     }
                     else if (seleccion == 4)
                     {
-                        Console.WriteLine("PROBLEMA 4");
+                        int num;
 
-                        Console.WriteLine("Press any key to continue...");
+                        do
+                        {
+                            Console.Write("PROBLEMA 4\n" +
+                                "Ingrese un número entre 0 y 15: ");
+
+                            try
+                            {
+                                num = Convert.ToInt16(Console.ReadLine());
+
+                                if (num >= 0 && num <= 15)
+                                {
+                                    int[,] matriz = new int[num, num];
+
+                                    // Rellenado de la matriz
+                                    for (int i = 0; i < num; i++)
+                                    {
+                                        for (int j = 0; j < num; j++)
+                                        {
+                                            matriz[i, j] = i + j;
+                                        }
+                                    }
+
+                                    Console.WriteLine("\nMatriz:");
+                                    // Impresion de la matriz
+                                    for (int i = 0; i < num; i++)
+                                    {
+                                        Console.WriteLine();
+                                        for (int j = 0; j < num; j++)
+                                        {
+                                            Console.Write(matriz[i, j] + "\t");
+                                        }
+                                    }
+
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Ingrese un número válido\n");
+                                }
+
+                            }
+                            catch
+                            {
+                                num = -1;
+                                Console.WriteLine("Ingrese un número válido\n");
+                            }
+
+
+                        } while (num < 0 || num > 15);
+
+                        Console.WriteLine("\n\nPress any key to continue...");
                         Console.ReadKey();
                     }
                 }
@@ -115,8 +164,6 @@ namespace BlueDevs
             }
             
         }
-
-        
 
         
 
