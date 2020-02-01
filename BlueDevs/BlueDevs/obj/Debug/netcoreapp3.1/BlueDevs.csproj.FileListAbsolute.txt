@@ -1,0 +1,11 @@
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs.deps.json
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs.runtimeconfig.json
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs.runtimeconfig.dev.json
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs.dll
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/bin/Debug/netcoreapp3.1/BlueDevs.pdb
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.csprojAssemblyReference.cache
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.AssemblyInfoInputs.cache
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.AssemblyInfo.cs
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.dll
+/Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.pdb
