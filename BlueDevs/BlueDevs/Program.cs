@@ -12,7 +12,7 @@ namespace BlueDevs
             while (seleccion != 5)
             {
                 Console.Clear();
-                Console.WriteLine("Bienvenido\n Ingrese el numero del problema que quiere seleccionar.\n\n" +
+                Console.WriteLine("Bienvenido\nIngrese el numero del problema que quiere seleccionar.\n" +
                     "2. Problema 2\n" +
                     "3. Problema 3\n" +
                     "4. Problema 4\n" +
@@ -29,8 +29,8 @@ namespace BlueDevs
 
                         do
                         {
-                            Console.WriteLine("PROBLEMA 2\n" +
-                                "Ingrese un número entre 0 y 15");
+                            Console.Write("PROBLEMA 2\n" +
+                                "Ingrese un número entre 0 y 15: ");
 
                             try
                             {
@@ -41,7 +41,7 @@ namespace BlueDevs
                                 if (num >= 0 && num <= 15)
                                 {
                                     proc.SerieFibonacci(num, ref resultado);
-                                    Console.WriteLine("Serie de Fibonacci: " + resultado);
+                                    Console.WriteLine("\nSerie de Fibonacci: " + resultado + "\n");
                                 }
                                 else
                                 {
@@ -52,7 +52,7 @@ namespace BlueDevs
                             catch
                             {
                                 num = -1;
-                                Console.WriteLine("Ingrese un caracter válido\n");
+                                Console.WriteLine("Ingrese un número válido\n");
                             }
 
 
@@ -64,7 +64,38 @@ namespace BlueDevs
                     }
                     else if (seleccion == 3)
                     {
-                        Console.WriteLine("PROBLEMA 3");
+                        int num;
+
+                        do
+                        {
+                            Console.Write("PROBLEMA 3\n" +
+                                "Ingrese un número entre 0 y 15: ");
+
+                            try
+                            {
+                                num = Convert.ToInt16(Console.ReadLine());
+
+                                int resultado = 0;
+
+                                if (num >= 0 && num <= 15)
+                                {
+                                    resultado = proc.SumatoriaFibonacci(num);
+                                    Console.WriteLine("\nSumatoria de Fibonacci (" + num + "): " + resultado + "\n");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Ingrese un número válido\n");
+                                }
+
+                            }
+                            catch
+                            {
+                                num = -1;
+                                Console.WriteLine("Ingrese un número válido\n");
+                            }
+
+
+                        } while (num < 0 || num > 15);
 
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
