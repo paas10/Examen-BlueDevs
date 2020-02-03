@@ -8,6 +8,7 @@ namespace BlueDevs
         {
             var seleccion = 0;
             Procesos proc = new Procesos();
+            SolucionJASSGG solucion = new SolucionJASSGG();
 
             while (seleccion != 5)
             {
@@ -40,7 +41,8 @@ namespace BlueDevs
 
                                 if (num >= 0 && num <= 15)
                                 {
-                                    proc.SerieFibonacci(num, ref resultado);
+                                    //proc.SerieFibonacci(num, ref resultado);
+                                    solucion.SerieFibonacciJASSGG(num, ref resultado);
                                     Console.WriteLine("\nSerie de Fibonacci: " + resultado + "\n");
                                 }
                                 else
@@ -79,7 +81,8 @@ namespace BlueDevs
 
                                 if (num >= 0 && num <= 15)
                                 {
-                                    resultado = proc.SumatoriaFibonacci(num);
+                                    //resultado = proc.SumatoriaFibonacci(num);
+                                    resultado = solucion.SumatoriaFibonacciJASSGG(num, 0);
                                     Console.WriteLine("\nSumatoria de Fibonacci (" + num + "): " + resultado + "\n");
                                 }
                                 else

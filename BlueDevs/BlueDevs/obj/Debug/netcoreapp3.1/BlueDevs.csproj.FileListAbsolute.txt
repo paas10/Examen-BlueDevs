@@ -9,3 +9,14 @@
 /Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.AssemblyInfo.cs
 /Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.dll
 /Users/pabloalvarado/Desktop/Examen-BlueDevs/BlueDevs/BlueDevs/obj/Debug/netcoreapp3.1/BlueDevs.pdb
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.exe
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.deps.json
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.runtimeconfig.json
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.runtimeconfig.dev.json
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.dll
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\bin\Debug\netcoreapp3.1\BlueDevs.pdb
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\obj\Debug\netcoreapp3.1\BlueDevs.csprojAssemblyReference.cache
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\obj\Debug\netcoreapp3.1\BlueDevs.AssemblyInfoInputs.cache
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\obj\Debug\netcoreapp3.1\BlueDevs.AssemblyInfo.cs
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\obj\Debug\netcoreapp3.1\BlueDevs.dll
+C:\Users\Abraham\Documents\Programming\Pablo Alvarado\BlueDevs\BlueDevs\obj\Debug\netcoreapp3.1\BlueDevs.pdb
